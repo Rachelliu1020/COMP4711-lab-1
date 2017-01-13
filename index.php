@@ -48,8 +48,9 @@ and open the template in the editor.
         $third->add_grade(75);
         $students['j789'] = $third;
         
+        //sort students
         ksort($students); // one of the many sort functions
-        //
+        
         //show all students
         foreach($students as $student)
             echo $student->toString();
